@@ -1,0 +1,57 @@
+body{
+    background-image: linear-gradient(to right, #283c86,#45a247);
+}
+hr{
+    color: black;
+}
+
+
+
+#logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+@media (max-width:576px) {
+    body #logo span{
+        display: block;
+        right: 1px;
+        top: -7px;
+    }
+    
+}
+
+.container{
+    padding: 1rem;
+}
+
+#logo i{
+    color: white;
+    font-size: 24px;
+    position: relative;
+}
+
+input{
+    width: 50%;
+}
+
+#logo span{
+    position: absolute;
+    top: 2px;
+    font-size: 30px;
+    background-color: white;
+    color: green;
+    padding: 2px 3px -10px;
+    border-radius: 100%; 
+    margin: 0px 3px;   
+}
+.card{
+    background-image: linear-gradient(to right, #F3904F, #3B4371);
+    margin-bottom: 5rem;
+}
+tbody td img{
+    text-align: center;
+    width: 30%;
+}
+
